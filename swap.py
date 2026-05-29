@@ -1,7 +1,7 @@
 def swap(a,b):
-    a = a + b
-    b = a - b
-    a = a - b
-    return (a,b)
+    c=b
+    b=a
+    a=c
+    return(a,b)
 
 print(swap(3,6))
